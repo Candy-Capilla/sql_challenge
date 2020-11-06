@@ -17,7 +17,12 @@ JOIN department
 JOIN employees
 	ON dep_managers.emp_no = employees.emp_no;
 ---employee number, last name, first name, and department name
-
+SELECT employees.emp_no, last_name, first_name, department.dept_name
+FROM employees
+JOIN dep_employee
+	ON dep_employee.emp_no = employees.emp_no
+JOIN department
+	ON department.dept_no = dep_employee.dept_no;
 
 ---first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 
