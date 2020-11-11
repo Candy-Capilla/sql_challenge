@@ -54,9 +54,3 @@ SELECT last_name, COUNT(last_name) AS "Frequency Count"
 FROM employees
 GROUP BY last_name
 ORDER BY "Frequency Count" DESC;
-
-----BONUS
-from sqlalchemy import create_engine
-engine = create_engine('postgresql://postgres:postgres@localhost:5432/sql_challenge')
-connection = engine.connect()
-df= pd.read_sql("SELECT*FROM employees",connection)
