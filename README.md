@@ -1,37 +1,33 @@
 
 # sql_challenge
 
-## USING SQL make a Data Analysis:
+#### Data Modeling
 
-* List the following details of each employee: employee number, last name, first name, sex, and salary.
+Inspect the CSVs and sketch out an ERD of the tables. Using tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
-* Create an SQL database and table schema as well as ERD based off of a series of provided CSV files.
+#### Data Engineering
 
-## Perform the following analysis in postgres SQL:
+* Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
 
-* List the following details of each employee: employee number, last name, first name, sex, and salary.
+* Import each CSV file into the corresponding SQL table.
 
-* List first name, last name, and hire date for employees who were hired in 1986.
+#### Data Analysis
 
-* List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+Once completed database, do following:
 
-* List the department of each employee with the following information: employee number, last name, first name, and department name.
+1. List the following details of each employee: employee number, last name, first name, gender, and salary.
 
-* List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+2. List employees who were hired in 1986.
 
-* List all employees in the Sales department, including their employee number, last name, first name, and department name.
+3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
 
-* List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+4. List the department of each employee with the following information: employee number, last name, first name, and department name.
 
-* In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+5. List all employees whose first name is "Hercules" and last names begin with "B."
 
+6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
 
-Then:
+7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-Examine the database in a jupyter notebook using pandas and other various libraries
+8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-Import the SQL database into Pandas
-
-Create a histogram to visualize the most common salary ranges for employees.
-
-Create a bar chart of average salary by title.
