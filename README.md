@@ -1,8 +1,8 @@
-# sql_challenge
+## sql_challenge
 For this project I was asked to do the following:
 
 
-Create an SQL database and table schema as well as ERD based off of a series of provided CSV files.
+# Create an SQL database and table schema as well as ERD based off of a series of provided CSV files.
 
 Perform the following analysis in postgres SQL:
 
