@@ -30,8 +30,6 @@ Then:
 
 Examine the database in a jupyter notebook using pandas and other various libraries
 
-In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-
 Import the SQL database into Pandas
 
 Create a histogram to visualize the most common salary ranges for employees.
